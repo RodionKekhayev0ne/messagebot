@@ -6,3 +6,7 @@ from .models import Application
 class ApplicationAdmin(admin.ModelAdmin):
     list_display = ['title', 'description', 'number', 'person', 'executor', 'status', 'tags']
     search_fields = ('person', 'tags')  # Поиск по номеру и тексту заявки
+
+
+# Поиск по номеру и тексту заявки
+print("hello worls")
